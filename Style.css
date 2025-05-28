@@ -1,7 +1,16 @@
-h3{color:indigo;}
-h4{color:blue;}
-*{font-size: 30px;}
-*{font-family: Arial, Helvetica, sans-serif;}
-body{background-color: #000000;}
-.myclass{color:darkred}
-#myid{color:darkgreen}
+body{font-family: Arial, Helvetica, sans-serif;
+background-color: black;
+color: white;}
+h1{color:blue}
+a{color: white;
+text-decoration: none;}
+a:hover{color: rgb(0, 238, 255);}
+ul>li{font-weight:bold}
+h1 + p{background-color:grey;
+    padding: 10px;
+border-radius: 5px;}
+ul li:hover {color: #4f8cc9;}
+ul li:nth-child {background-color: #21262d;}
+p:not(:first-of-type) {text-decoration: underline;}
+p::first-letter {font-size: 200%;
+color: #ff7b72;}
